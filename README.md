@@ -53,11 +53,11 @@ You set the preset in `index.html`
 
 # Customize
 
-Customize the Header with `structure/header.html`
+Customize the Header with `structure/{preset}/header.html`
 
 Customize the Content with `structure/content.html` either directly, or by including components
 
-Customize the Footer with `structure/footer.html`
+Customize the Footer with `structure/{preset}/footer.html`
 
 Customize the CSS with `css/main.css`
 
