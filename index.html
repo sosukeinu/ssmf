@@ -1,0 +1,49 @@
+<!doctype html>
+    <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+    <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+    <!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+    <!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/bootstrap-toggle.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.1.1.min.js"><\/script>')</script>
+        <script>
+        // These scripts are ONLY for mock-ups. Please do not use these for anything else.
+        // To customize the structural preset, comment all the presets you do not want to use, and uncomment the one you want applied.
+        // var structure_preset = 'elastic';
+        // var structure_preset = 'scroll_behind';
+        // var structure_preset = 'fixed_header';
+        // var structure_preset = 'fixed_footer';
+        var structure_preset = 'sticky_footer';
+
+        $(function(){
+            $("#includeHeader").load("structure/" + structure_preset + "/header.html");
+        });
+        $(function(){
+            $("#includeContent").load("structure/content.html");
+        });
+        $(function(){
+            $("#includeFooter").load("structure/" + structure_preset + "/footer.html");
+        });
+        </script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+            <![endif]-->
+    <import id="includeHeader"></import>
+    <import id="includeContent"></import>
+    <import id="includeFooter"></import>
+    </body>
+</html>
