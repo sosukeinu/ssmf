@@ -84,17 +84,3 @@ Included components:
 For examples on creating components, and including them in your mock-up, take a look at `structure/content.html`
 
 I think that covers pretty much everything. Like I said, super-simple.
-
-## Example of Mocked-up Interaction
-
-Tabbed form field break out
-
-![](https://cloud.githubusercontent.com/assets/1004903/25251955/33e925f2-25e9-11e7-9eab-396fd938b826.gif)
-
-Miller Columns
-
-![](https://cloud.githubusercontent.com/assets/1004903/25251954/33e467a6-25e9-11e7-8305-21609a85bb5d.gif)
-
-Double Panes with ckEditor
-
-![](https://cloud.githubusercontent.com/assets/1004903/25252123/ccc3d81c-25e9-11e7-836f-57e8cb833ea7.gif)
