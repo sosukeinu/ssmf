@@ -9,8 +9,9 @@ Super-simple Mock-up framework meant to ease the transition from mock-ups to act
 Uses:
 
 - [HTML5 Boilerplate](https://html5boilerplate.com/)
-- [jQuery 3](http://jquery.com/)
-- [Bootstrap 3](http://getbootstrap.com/)
+- [jQuery 3](https://jquery.com/)
+- [jQuery UI](https://jqueryui.com/)
+- [Bootstrap 4](https://getbootstrap.com/docs/4.0/getting-started/download/)
 
 # Structural Presets
 
