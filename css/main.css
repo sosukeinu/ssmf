@@ -1,15 +1,12 @@
 /* ==========================================================================
    header styles
    ========================================================================== */
-   .navbar > .container {
+   .navbar{
        height: 28px;
        width: 100%;
        background-color: #dedede;
        border-bottom: 1px solid;
        border-bottom-color: #dedede;
-   }
-   .header-container{
-     padding: 5px;
    }
    /*elastic*/
    /*!elastic*/
